@@ -1,0 +1,576 @@
+{
+  "catalogue": {
+    "name": "ARCANISTS",
+    "id": "b63a-0141-3400-ede1",
+    "authorContact": "reyzambo2@hotmail.com",
+    "authorName": "muteking",
+    "authorUrl": "http://www.wyrd-games.net/malifaux-arcanists",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "5ff82c92-8faf-fee2-9d9e-531d4753b8c8",
+    "gameSystemRevision": 2,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "publications": [{"name": "Core", "id": "b63a-0141-pub1"}],
+    "selectionEntries": [
+      {
+        "name": "Datsue Ba",
+        "id": "27b7-bab0-af29-eeb5",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [{"id": "27b7-bab0-af29-eeb5-182a-ad17-37af-3c64", "primary": true, "targetId": "182a-ad17-37af-3c64"}],
+        "constraints": [
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "type": "max", "value": 1},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 8}],
+        "entryLinks": [
+          {"id": "1c71-66ae-2b00-2e62", "targetId": "3f2c-5da1-b053-0618", "type": "selectionEntry"},
+          {"id": "8c5d-8820-9bd1-90de", "targetId": "5a5a-58dc-7a89-a8de", "type": "selectionEntryGroup"},
+          {"id": "7250-aaa0-73be-8885", "targetId": "269e-d99d-9c71-0506", "type": "selectionEntryGroup"}
+        ],
+        "infoLinks": [{"id": "4695-ab96-fb05-5515", "targetId": "b183-4bc0-9bb7-4aaf", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "points",
+            "type": "decrement",
+            "value": 8,
+            "repeats": [{"childId": "1c71-66ae-2b00-2e62", "field": "selections", "repeats": 1, "scope": "parent", "shared": true, "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Datsue Ba",
+            "id": "176c-4ba8-f83e-c6a4",
+            "hidden": false,
+            "typeId": "ab420767-7194-97a3-f166-94bcd61e693f",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "6", "typeId": "9fa2ee67-d1d9-d093-0af3-0ba3a7d88c3b"},
+              {"name": "Willpower(Wp)", "$text": "5", "typeId": "042b243e-da89-38ba-3156-6ee8abd789f2"},
+              {"name": "Wounds(Wd)", "$text": "6", "typeId": "0da21da5-7afc-7fb3-32d4-db748988afff"},
+              {"name": "Walk(Wk)", "$text": "5", "typeId": "2689979e-7c9d-9f15-24da-dc21e28f626d"},
+              {"name": "Charge(Cg)", "$text": "8", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d989"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "0c900bbf-edac-b0f5-bf66-05c598c437c8"},
+              {"name": "Cache", "$text": "5", "typeId": "9a4b750d-3b4a-4968-70a4-8b43eb5324c3"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ice Golem",
+        "id": "3733-8686-e35d-8db6",
+        "collective": false,
+        "hidden": false,
+        "page": 153,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "3733-8686-e35d-8db6-afff2517-9118-65d0-6a05-69270c89c446", "primary": true, "targetId": "afff2517-9118-65d0-6a05-69270c89c446"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 10}],
+        "infoLinks": [{"id": "483b-9397-2077-8f83", "targetId": "2e63-e102-b988-4314", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Ice Golem",
+            "id": "08df-5d8b-0076-aafe",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "2", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "5", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "10", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "4", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "6", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "3", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "December Acolyte",
+        "id": "c652-7c1b-c53f-1cec",
+        "collective": false,
+        "hidden": false,
+        "page": 156,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "c652-7c1b-c53f-1cec-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 7}],
+        "infoLinks": [{"id": "3c46-42ab-fe94-eaf2", "targetId": "da08-3a51-d6ef-143f", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "December Acolyte",
+            "id": "17b6-550e-6010-79ed",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "5", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "6", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "8", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "4", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "6", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rasputina",
+        "id": "37b6-0996-ab17-1510",
+        "collective": false,
+        "hidden": false,
+        "page": 149,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "37b6-0996-ab17-1510-37cd-b6a7-0f72-3954", "primary": true, "targetId": "37cd-b6a7-0f72-3954"}],
+        "constraints": [
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "type": "max", "value": 1},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "entryLinks": [
+          {"id": "7ab2-2ac3-a439-a6ed", "targetId": "f17d-ebcf-1b44-d537", "type": "selectionEntryGroup"},
+          {"id": "0bb2-7107-e83e-1abb", "targetId": "3f2c-5da1-b053-0618", "type": "selectionEntry"},
+          {"id": "6ff6-cc83-941d-3bd1", "targetId": "5a5a-58dc-7a89-a8de", "type": "selectionEntryGroup"}
+        ],
+        "infoLinks": [{"id": "da6f-6b0d-47cc-2f5c", "targetId": "da08-3a51-d6ef-143f", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Rasputina",
+            "id": "6dc6-364c-4a95-d8ea",
+            "hidden": false,
+            "typeId": "ab420767-7194-97a3-f166-94bcd61e693f",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "4", "typeId": "9fa2ee67-d1d9-d093-0af3-0ba3a7d88c3b"},
+              {"name": "Willpower(Wp)", "$text": "6", "typeId": "042b243e-da89-38ba-3156-6ee8abd789f2"},
+              {"name": "Wounds(Wd)", "$text": "12", "typeId": "0da21da5-7afc-7fb3-32d4-db748988afff"},
+              {"name": "Walk(Wk)", "$text": "3", "typeId": "2689979e-7c9d-9f15-24da-dc21e28f626d"},
+              {"name": "Charge(Cg)", "$text": "-", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d989"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "0c900bbf-edac-b0f5-bf66-05c598c437c8"},
+              {"name": "Cache", "$text": "3", "typeId": "9a4b750d-3b4a-4968-70a4-8b43eb5324c3"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Wendigo",
+        "id": "0520-33be-e584-8b5c",
+        "collective": false,
+        "hidden": false,
+        "page": 155,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "0520-33be-e584-8b5c-6e935fb1-41bb-1bd8-f970-f56ecec63ccf", "primary": true, "targetId": "6e935fb1-41bb-1bd8-f970-f56ecec63ccf"}],
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "type": "max", "value": 1},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 3}],
+        "infoLinks": [{"id": "2508-2a07-fa5e-cd70", "targetId": "da08-3a51-d6ef-143f", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "37b6-0996-ab17-1510", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "equalTo", "value": 0}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Wendigo",
+            "id": "f5f6-e36e-8828-2e63",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "4(book)", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "4", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "6", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "6", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "6", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "1", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ice Gamin",
+        "id": "7d71-c99a-d1e8-9fdc",
+        "collective": false,
+        "hidden": false,
+        "page": 158,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "7d71-c99a-d1e8-9fdc-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 4}],
+        "infoLinks": [{"id": "e43d-3a89-f127-f8a4", "targetId": "2e63-e102-b988-4314", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Ice Gamin",
+            "id": "386e-eff9-31c3-9d3d",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "4(book)", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "4", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "5", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "4", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "5", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "1", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedRules": [
+      {"name": "Academic", "id": "e503-3296-4681-ac23", "hidden": false},
+      {"name": "Beast", "id": "68c0-9c9e-22d7-20a4", "hidden": false},
+      {
+        "name": "Construct",
+        "id": "2e63-e102-b988-4314",
+        "description": "models drop Scrap Markers when they are killed",
+        "hidden": false,
+        "page": 49,
+        "publicationId": "b63a-0141-pub1"
+      },
+      {"name": "Effigy", "id": "d71f-e859-f0f2-5a12", "hidden": false},
+      {"name": "Horror", "id": "cb3c-463b-1ddc-2717", "hidden": false},
+      {"name": "Horseman", "id": "70d2-b452-99e3-eb7a", "hidden": false},
+      {"name": "Hound", "id": "8ad2-43de-d80b-4c5e", "hidden": false},
+      {
+        "name": "Living",
+        "id": "da08-3a51-d6ef-143f",
+        "description": "The model's controller places a Corpse Marker in base contact with the model before it is removed.",
+        "hidden": false,
+        "page": 49,
+        "publicationId": "b63a-0141-pub1"
+      },
+      {"name": "Puppet", "id": "59ce-e6d0-8931-2c4d", "hidden": false},
+      {"name": "Retainer", "id": "5357-a9a1-b387-6b96", "hidden": false},
+      {
+        "name": "Slow",
+        "id": "41a7-0137-8635-e0ee",
+        "description": "A model with the Slow Condition generates 1 less general AP when it Activates.",
+        "hidden": false,
+        "page": 53,
+        "publicationId": "b63a-0141-pub1"
+      },
+      {"name": "Spirit", "id": "b183-4bc0-9bb7-4aaf", "hidden": false},
+      {"name": "Tormented", "id": "686a-27f7-c895-2305", "hidden": false},
+      {"name": "Unhirable", "id": "3b29-1113-238f-16b7", "description": "This model may not be hired, it may only be summoned.", "hidden": false}
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Leader",
+        "id": "3f2c-5da1-b053-0618",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 1},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+      },
+      {
+        "name": "Upgrade\\Imbued Protection",
+        "id": "c914-509a-dcfb-cd16",
+        "collective": false,
+        "hidden": false,
+        "page": 162,
+        "publicationId": "b63a-0141-pub1",
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 3},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 2}]
+      },
+      {
+        "name": "Upgrade\\Imbued Energies",
+        "id": "4dd9-ac88-7181-bac4",
+        "collective": false,
+        "hidden": false,
+        "page": 162,
+        "publicationId": "b63a-0141-pub1",
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 3},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}]
+      },
+      {
+        "name": "Upgrade\\The Philosopher's Stone",
+        "id": "e33a-5e2c-8c70-b9f1",
+        "collective": false,
+        "hidden": false,
+        "page": 162,
+        "publicationId": "b63a-0141-pub1",
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}]
+      },
+      {
+        "name": "Upgrade\\Arcane Reservoir",
+        "id": "7afd-b4fe-f2ef-5021",
+        "collective": false,
+        "hidden": false,
+        "page": 162,
+        "publicationId": "b63a-0141-pub1",
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 2}]
+      },
+      {
+        "name": "Upgrade\\Recharge Soulstone",
+        "id": "6d98-6ace-43a3-f7c2",
+        "collective": false,
+        "hidden": false,
+        "page": 163,
+        "publicationId": "b63a-0141-pub1",
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 2},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 2},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}]
+      },
+      {
+        "name": "Upgrade\\December's Pawn",
+        "id": "041e-eebb-15ac-039c",
+        "collective": false,
+        "hidden": false,
+        "page": 164,
+        "publicationId": "b63a-0141-pub1",
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 2}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "37b6-0996-ab17-1510", "field": "selections", "scope": "parent", "shared": true, "type": "notEqualTo", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "Upgrade\\Cold Nights",
+        "id": "87b6-50d0-ade3-53a7",
+        "collective": false,
+        "hidden": false,
+        "page": 164,
+        "publicationId": "b63a-0141-pub1",
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "37b6-0996-ab17-1510", "field": "selections", "scope": "parent", "shared": true, "type": "notEqualTo", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "Upgrade\\Shattered Heart",
+        "id": "d143-d08d-1807-a7b0",
+        "collective": false,
+        "hidden": false,
+        "page": 164,
+        "publicationId": "b63a-0141-pub1",
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 3}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "37b6-0996-ab17-1510", "field": "selections", "scope": "parent", "shared": true, "type": "notEqualTo", "value": 1}]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Upgrades",
+        "id": "24fe-4add-82ca-37a8",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [
+          {"id": "4dc1-9753-d6cd-eaae", "targetId": "c914-509a-dcfb-cd16", "type": "selectionEntry"},
+          {"id": "6548-8f29-30a3-95ce", "targetId": "4dd9-ac88-7181-bac4", "type": "selectionEntry"},
+          {"id": "68ca-7f7e-e8f4-a433", "targetId": "041e-eebb-15ac-039c", "type": "selectionEntry"},
+          {"id": "8bd9-e853-69de-aee5", "targetId": "87b6-50d0-ade3-53a7", "type": "selectionEntry"},
+          {"id": "44d1-51fb-d728-64bd", "targetId": "d143-d08d-1807-a7b0", "type": "selectionEntry"}
+        ]
+      },
+      {
+        "name": "Upgrades (Enforcer)",
+        "id": "ef19-a0ec-0306-9dc6",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [{"id": "aba6-6e5d-43f3-1d4e", "targetId": "24fe-4add-82ca-37a8", "type": "selectionEntryGroup"}]
+      },
+      {
+        "name": "Upgrades (Henchman)",
+        "id": "269e-d99d-9c71-0506",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 2},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [
+          {"id": "3493-c75c-2a2d-b01c", "targetId": "24fe-4add-82ca-37a8", "type": "selectionEntryGroup"},
+          {"id": "5d4b-2c19-0a13-c2cf", "targetId": "6d98-6ace-43a3-f7c2", "type": "selectionEntry"}
+        ]
+      },
+      {
+        "name": "Upgrades (Leader)",
+        "id": "5a5a-58dc-7a89-a8de",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [
+          {"id": "d72c-f5e0-c7c3-1538", "targetId": "e33a-5e2c-8c70-b9f1", "type": "selectionEntry"},
+          {"id": "4c5e-eb6b-ccd9-2971", "targetId": "7afd-b4fe-f2ef-5021", "type": "selectionEntry"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "3f2c-5da1-b053-0618", "field": "selections", "scope": "parent", "shared": true, "type": "equalTo", "value": 0}]
+          }
+        ]
+      },
+      {
+        "name": "Upgrades (Master)",
+        "id": "f17d-ebcf-1b44-d537",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 3},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [
+          {"id": "fce3-5149-b664-de0e", "targetId": "24fe-4add-82ca-37a8", "type": "selectionEntryGroup"},
+          {"id": "94a8-3606-0af3-7264", "targetId": "6d98-6ace-43a3-f7c2", "type": "selectionEntry"}
+        ]
+      }
+    ]
+  }
+}
