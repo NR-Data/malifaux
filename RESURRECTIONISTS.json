@@ -1,0 +1,1832 @@
+{
+  "catalogue": {
+    "name": "RESURRECTIONISTS",
+    "id": "b63a-0141-3400-ede1",
+    "authorContact": "reyzambo2@hotmail.com",
+    "authorName": "muteking",
+    "authorUrl": "http://www.wyrd-games.net/malifaux-resurrectionist",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "5ff82c92-8faf-fee2-9d9e-531d4753b8c8",
+    "gameSystemRevision": 2,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "publications": [{"name": "Crossroads", "id": "b63a-0141-pub1"}, {"name": "Core", "id": "b63a-0141-pub2"}, {"name": "M2E_FAQ_Errata_5-1-16", "id": "b63a-0141-pub3"}],
+    "selectionEntries": [
+      {
+        "name": "Ashigaru",
+        "id": "2212-e220-70e7-3a53",
+        "collective": false,
+        "hidden": false,
+        "page": 70,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "2212-e220-70e7-3a53-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 5}],
+        "infoLinks": [
+          {"id": "7a1b-1108-9f85-c6d4", "targetId": "5357-a9a1-b387-6b96", "type": "rule"},
+          {"id": "269d-0886-194f-ce23", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Ashigaru",
+            "id": "5f15-0a3f-c0ae-6701",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "4", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "5", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "6", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "5", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "3", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bete noire",
+        "id": "8932-d687-e825-326f",
+        "collective": false,
+        "hidden": false,
+        "page": 130,
+        "publicationId": "b63a-0141-pub2",
+        "type": "model",
+        "categoryLinks": [{"id": "8932-d687-e825-326f-afff2517-9118-65d0-6a05-69270c89c446", "primary": true, "targetId": "afff2517-9118-65d0-6a05-69270c89c446"}],
+        "constraints": [
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "type": "max", "value": 1},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 8}],
+        "entryLinks": [{"id": "19f2-37f0-6514-66a1", "targetId": "ef19-a0ec-0306-9dc6", "type": "selectionEntryGroup"}],
+        "infoLinks": [{"id": "40f2-a560-ddb1-b6b7", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Bete noire",
+            "id": "8f32-0fe9-9ccf-8668",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "7", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "5", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "4", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "5", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "8", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Canine Remains",
+        "id": "a54d-24e1-0108-ad56",
+        "collective": false,
+        "hidden": false,
+        "page": 130,
+        "publicationId": "b63a-0141-pub2",
+        "type": "model",
+        "categoryLinks": [{"id": "a54d-24e1-0108-ad56-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 4}],
+        "infoLinks": [
+          {"id": "0e75-786d-5bbb-1d16", "targetId": "68c0-9c9e-22d7-20a4", "type": "rule"},
+          {"id": "ed36-d565-8297-ecc4", "targetId": "8ad2-43de-d80b-4c5e", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Canine Remains",
+            "id": "e464-3523-0594-f20d",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "5", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "5", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "4", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "6", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "6", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "1", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Carrion Effigy",
+        "id": "212c-4ed7-aecc-cd83",
+        "collective": false,
+        "hidden": false,
+        "page": 69,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "212c-4ed7-aecc-cd83-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "constraints": [
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "type": "max", "value": 1},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 4}],
+        "infoLinks": [
+          {"id": "d38d-eab6-549b-643f", "targetId": "d71f-e859-f0f2-5a12", "type": "rule"},
+          {"id": "26df-dc25-88c6-5994", "targetId": "59ce-e6d0-8931-2c4d", "type": "rule"},
+          {"id": "a738-c4b6-66f5-56d5", "targetId": "2e63-e102-b988-4314", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Carrion Effigy",
+            "id": "efa4-8292-25d1-28f4",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "1", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Crooked Man",
+        "id": "e93d-8cdd-b931-f1b8",
+        "collective": false,
+        "hidden": false,
+        "page": 131,
+        "publicationId": "b63a-0141-pub2",
+        "type": "model",
+        "categoryLinks": [{"id": "e93d-8cdd-b931-f1b8-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 5}],
+        "infoLinks": [
+          {"id": "50ea-d87f-573e-236e", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"},
+          {"id": "0882-600a-895c-06ff", "targetId": "686a-27f7-c895-2305", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Crooked Man",
+            "id": "ffc7-e58f-d044-0f54",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "4", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "6", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "7", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "4", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "6", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Crooligan",
+        "id": "726d-0519-0572-a85c",
+        "collective": false,
+        "hidden": false,
+        "page": 67,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "726d-0519-0572-a85c-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 4}],
+        "infoLinks": [
+          {"id": "2f6e-2293-da1e-016a", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"},
+          {"id": "cdb3-801e-82d0-299b", "targetId": "cb3c-463b-1ddc-2717", "type": "rule"},
+          {"id": "074c-5528-b8b3-ae6d", "targetId": "ac32-7975-acda-8a20", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Crooligan",
+            "id": "2fe7-27b5-0daf-d386",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "6", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "5", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "1", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Datsue Ba",
+        "id": "27b7-bab0-af29-eeb5",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [{"id": "27b7-bab0-af29-eeb5-182a-ad17-37af-3c64", "primary": true, "targetId": "182a-ad17-37af-3c64"}],
+        "constraints": [
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "type": "max", "value": 1},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 8}],
+        "entryLinks": [
+          {"id": "1c71-66ae-2b00-2e62", "targetId": "3f2c-5da1-b053-0618", "type": "selectionEntry"},
+          {"id": "8c5d-8820-9bd1-90de", "targetId": "5a5a-58dc-7a89-a8de", "type": "selectionEntryGroup"},
+          {"id": "7250-aaa0-73be-8885", "targetId": "269e-d99d-9c71-0506", "type": "selectionEntryGroup"}
+        ],
+        "infoLinks": [
+          {"id": "dfd5-a815-e3cb-7fe6", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"},
+          {"id": "4695-ab96-fb05-5515", "targetId": "b183-4bc0-9bb7-4aaf", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "points",
+            "type": "decrement",
+            "value": 8,
+            "repeats": [{"childId": "1c71-66ae-2b00-2e62", "field": "selections", "repeats": 1, "scope": "parent", "shared": true, "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Datsue Ba",
+            "id": "176c-4ba8-f83e-c6a4",
+            "hidden": false,
+            "typeId": "ab420767-7194-97a3-f166-94bcd61e693f",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "6", "typeId": "9fa2ee67-d1d9-d093-0af3-0ba3a7d88c3b"},
+              {"name": "Willpower(Wp)", "$text": "5", "typeId": "042b243e-da89-38ba-3156-6ee8abd789f2"},
+              {"name": "Wounds(Wd)", "$text": "6", "typeId": "0da21da5-7afc-7fb3-32d4-db748988afff"},
+              {"name": "Walk(Wk)", "$text": "5", "typeId": "2689979e-7c9d-9f15-24da-dc21e28f626d"},
+              {"name": "Charge(Cg)", "$text": "8", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d989"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "0c900bbf-edac-b0f5-bf66-05c598c437c8"},
+              {"name": "Cache", "$text": "5", "typeId": "9a4b750d-3b4a-4968-70a4-8b43eb5324c3"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dead Doxy",
+        "id": "14ac-afe2-d11f-4c99",
+        "collective": false,
+        "hidden": false,
+        "page": 67,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "14ac-afe2-d11f-4c99-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 6}],
+        "infoLinks": [
+          {"id": "a16d-57c8-59a3-53c3", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"},
+          {"id": "ebfa-9f62-8e3a-06d1", "targetId": "4810-b041-1f07-b76b", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Dead Doxy",
+            "id": "061e-17f7-0dfb-676c",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "5", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dead Rider",
+        "id": "f2a9-9114-801e-f991",
+        "collective": false,
+        "hidden": false,
+        "page": 64,
+        "publicationId": "b63a-0141-pub1",
+        "type": "upgrade",
+        "categoryLinks": [{"id": "f2a9-9114-801e-f991-afff2517-9118-65d0-6a05-69270c89c446", "primary": true, "targetId": "afff2517-9118-65d0-6a05-69270c89c446"}],
+        "constraints": [
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "type": "max", "value": 1},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 12}],
+        "infoLinks": [
+          {"id": "0199-af64-c297-adc6", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"},
+          {"id": "8012-77dd-1160-1016", "targetId": "70d2-b452-99e3-eb7a", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Dead Rider",
+            "id": "2639-bb41-8005-c91f",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "5", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "10", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "6", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "10", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "3", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Flesh Construct",
+        "id": "5e22-1db3-db2b-b948",
+        "collective": false,
+        "hidden": false,
+        "page": 131,
+        "publicationId": "b63a-0141-pub2",
+        "type": "model",
+        "categoryLinks": [{"id": "5e22-1db3-db2b-b948-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 6}],
+        "infoLinks": [
+          {"id": "3c01-907c-afa5-c715", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"},
+          {"id": "8c68-dcb0-fe40-4bb0", "targetId": "2e63-e102-b988-4314", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Flesh Construct",
+            "id": "f5eb-c5c9-cf83-5b5d",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "3", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "2", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "13", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "5", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gaki",
+        "id": "9865-a42e-7868-0fc3",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"id": "9865-a42e-7868-0fc3-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "entryLinks": [{"id": "e43a-1e60-ced8-21b3", "targetId": "192a-4c3c-7d35-3d22", "type": "selectionEntry"}]
+      },
+      {
+        "name": "Graveyard Spirit",
+        "id": "848f-ac1a-b073-314b",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [{"id": "848f-ac1a-b073-314b-6e935fb1-41bb-1bd8-f970-f56ecec63ccf", "primary": true, "targetId": "6e935fb1-41bb-1bd8-f970-f56ecec63ccf"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "entryLinks": [{"id": "f79e-871d-6d72-82f6", "targetId": "b068-dec4-664f-3e06", "type": "selectionEntry"}]
+      },
+      {
+        "name": "Guild Autopsy",
+        "id": "f4a5-d6f2-0550-4e3d",
+        "collective": false,
+        "hidden": false,
+        "page": 63,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "f4a5-d6f2-0550-4e3d-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 4}],
+        "infoLinks": [
+          {"id": "2e12-689b-7f9d-dd91", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"},
+          {"id": "fa1f-1384-5067-6e34", "targetId": "cb3c-463b-1ddc-2717", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Guild Autopsy",
+            "id": "28cb-7acc-affc-bb00",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "4", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "5", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "5", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Jaakuna Ubume",
+        "id": "9bc0-2386-fe71-a9bf",
+        "collective": false,
+        "hidden": false,
+        "page": 67,
+        "publicationId": "b63a-0141-pub1",
+        "type": "upgrade",
+        "categoryLinks": [{"id": "9bc0-2386-fe71-a9bf-afff2517-9118-65d0-6a05-69270c89c446", "primary": true, "targetId": "afff2517-9118-65d0-6a05-69270c89c446"}],
+        "constraints": [
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "type": "max", "value": 1},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 6}],
+        "infoLinks": [
+          {"id": "fccc-7aa8-1a3f-580f", "targetId": "b183-4bc0-9bb7-4aaf", "type": "rule"},
+          {"id": "7bd6-fa86-8a1b-f2dc", "targetId": "686a-27f7-c895-2305", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Jaakuna Ubume",
+            "id": "8af0-e7e7-eff3-ae3f",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kirai Ankoku",
+        "id": "37b6-0996-ab17-1510",
+        "collective": false,
+        "hidden": false,
+        "page": 59,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "37b6-0996-ab17-1510-37cd-b6a7-0f72-3954", "primary": true, "targetId": "37cd-b6a7-0f72-3954"}],
+        "constraints": [
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "type": "max", "value": 1},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "entryLinks": [
+          {"id": "7ab2-2ac3-a439-a6ed", "targetId": "f17d-ebcf-1b44-d537", "type": "selectionEntryGroup"},
+          {"id": "0bb2-7107-e83e-1abb", "targetId": "3f2c-5da1-b053-0618", "type": "selectionEntry"},
+          {"id": "6ff6-cc83-941d-3bd1", "targetId": "5a5a-58dc-7a89-a8de", "type": "selectionEntryGroup"}
+        ],
+        "infoLinks": [{"id": "da6f-6b0d-47cc-2f5c", "targetId": "da08-3a51-d6ef-143f", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Kirai",
+            "id": "6dc6-364c-4a95-d8ea",
+            "hidden": false,
+            "typeId": "ab420767-7194-97a3-f166-94bcd61e693f",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "4", "typeId": "9fa2ee67-d1d9-d093-0af3-0ba3a7d88c3b"},
+              {"name": "Willpower(Wp)", "$text": "6", "typeId": "042b243e-da89-38ba-3156-6ee8abd789f2"},
+              {"name": "Wounds(Wd)", "$text": "10", "typeId": "0da21da5-7afc-7fb3-32d4-db748988afff"},
+              {"name": "Walk(Wk)", "$text": "5", "typeId": "2689979e-7c9d-9f15-24da-dc21e28f626d"},
+              {"name": "Charge(Cg)", "$text": "-", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d989"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "0c900bbf-edac-b0f5-bf66-05c598c437c8"},
+              {"name": "Cache", "$text": "3", "typeId": "9a4b750d-3b4a-4968-70a4-8b43eb5324c3"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Summons (Blood and Wind)",
+            "id": "7934-55e1-92a8-068d",
+            "collective": false,
+            "hidden": false,
+            "entryLinks": [
+              {"id": "90f3-4383-089e-b3f6", "targetId": "192a-4c3c-7d35-3d22", "type": "selectionEntry", "modifiers": [{"field": "points", "type": "set", "value": 0}]},
+              {"id": "4619-cc6b-5910-3c41", "targetId": "f71c-de90-d6fc-dfc7", "type": "selectionEntry", "modifiers": [{"field": "points", "type": "set", "value": 0}]},
+              {"id": "3bbf-af29-9669-c6da", "targetId": "d1e5-c804-0b86-3251", "type": "selectionEntry", "modifiers": [{"field": "points", "type": "set", "value": 0}]},
+              {"id": "47f4-b041-cf16-f4df", "targetId": "614f-1212-965b-ce53", "type": "selectionEntry"},
+              {"id": "afb9-967f-8ff8-1994", "targetId": "9711-c47e-5101-6f19", "type": "selectionEntry"},
+              {"id": "ad21-6e57-0861-25ef", "targetId": "90e7-47c0-5b4a-72c7", "type": "selectionEntry", "modifiers": [{"field": "points", "type": "set", "value": 0}]},
+              {"id": "0d25-dba9-68bf-651b", "targetId": "c791-d620-f344-6e1d", "type": "selectionEntry", "modifiers": [{"field": "points", "type": "set", "value": 0}]}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lost Love",
+        "id": "0520-33be-e584-8b5c",
+        "collective": false,
+        "hidden": false,
+        "page": 60,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "0520-33be-e584-8b5c-6e935fb1-41bb-1bd8-f970-f56ecec63ccf", "primary": true, "targetId": "6e935fb1-41bb-1bd8-f970-f56ecec63ccf"}],
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "type": "max", "value": 1},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 4}],
+        "infoLinks": [
+          {"id": "2508-2a07-fa5e-cd70", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"},
+          {"id": "2ca9-b820-566f-21ee", "targetId": "b183-4bc0-9bb7-4aaf", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "37b6-0996-ab17-1510", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "equalTo", "value": 0}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Lost Love",
+            "id": "f5f6-e36e-8828-2e63",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "4", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "5", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "3", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "5", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "-", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mindless Zombie",
+        "id": "f8cd-633a-d1d3-4274",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"id": "f8cd-633a-d1d3-4274-c2b663a3-58c9-d0dd-29d8-9d38d7e0416f", "primary": true, "targetId": "c2b663a3-58c9-d0dd-29d8-9d38d7e0416f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 2}],
+        "infoLinks": [{"id": "45ad-ddf0-3530-1d3c", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Mindless Zombie",
+            "id": "df79-dfe9-4899-2107",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "2", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Molly Squidpiddge",
+        "id": "4dbc-3736-cac1-febf",
+        "collective": false,
+        "hidden": false,
+        "page": 58,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "4dbc-3736-cac1-febf-37cd-b6a7-0f72-3954", "primary": true, "targetId": "37cd-b6a7-0f72-3954"}],
+        "constraints": [
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "type": "max", "value": 1},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "entryLinks": [
+          {"id": "c5ed-ce84-4f64-1cbc", "targetId": "3f2c-5da1-b053-0618", "type": "selectionEntry"},
+          {"id": "2252-889c-1156-616e", "targetId": "5a5a-58dc-7a89-a8de", "type": "selectionEntryGroup"},
+          {"id": "3b23-9533-7db3-4a46", "targetId": "f17d-ebcf-1b44-d537", "type": "selectionEntryGroup"}
+        ],
+        "infoLinks": [
+          {"id": "b8fd-3ecd-0cd5-6137", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"},
+          {"id": "fb91-b5f1-372a-93aa", "targetId": "4810-b041-1f07-b76b", "type": "rule"},
+          {"id": "8871-8a7a-3844-f8fb", "targetId": "cb3c-463b-1ddc-2717", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Molly Squidpiddge",
+            "id": "30af-e5b4-9f08-2935",
+            "hidden": false,
+            "typeId": "ab420767-7194-97a3-f166-94bcd61e693f",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "6(crow)", "typeId": "9fa2ee67-d1d9-d093-0af3-0ba3a7d88c3b"},
+              {"name": "Willpower(Wp)", "typeId": "042b243e-da89-38ba-3156-6ee8abd789f2"},
+              {"name": "Wounds(Wd)", "$text": "10", "typeId": "0da21da5-7afc-7fb3-32d4-db748988afff"},
+              {"name": "Walk(Wk)", "typeId": "2689979e-7c9d-9f15-24da-dc21e28f626d"},
+              {"name": "Charge(Cg)", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d989"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "0c900bbf-edac-b0f5-bf66-05c598c437c8"},
+              {"name": "Cache", "$text": "3", "typeId": "9a4b750d-3b4a-4968-70a4-8b43eb5324c3"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [{"name": "Summons (the Ones Left Behind)", "id": "5369-25a0-f5e2-2b71", "collective": false, "hidden": false}]
+      },
+      {
+        "name": "Necropunk",
+        "id": "f9bb-f6b0-4a24-774c",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"id": "f9bb-f6b0-4a24-774c-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 5}],
+        "infoLinks": [
+          {"id": "383d-223c-dc94-8257", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"},
+          {"id": "b245-fde4-5962-f828", "targetId": "2e63-e102-b988-4314", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Necropunk",
+            "id": "2d0e-b715-8ba2-2def",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "5", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "4", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "1", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Night Terror",
+        "id": "0e21-d9e8-88f4-6e9c",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"id": "0e21-d9e8-88f4-6e9c-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "entryLinks": [{"id": "e865-ec5a-805b-3fbe", "targetId": "c791-d620-f344-6e1d", "type": "selectionEntry"}]
+      },
+      {
+        "name": "Nurse",
+        "id": "f613-dc28-883c-7d7c",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [{"id": "f613-dc28-883c-7d7c-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 5}],
+        "infoLinks": [
+          {"id": "e134-16d9-67f7-69fb", "targetId": "da08-3a51-d6ef-143f", "type": "rule"},
+          {"id": "f7e1-c0e6-7649-c059", "targetId": "686a-27f7-c895-2305", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Nurse",
+            "id": "2a5e-01f5-2301-d5e0",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "6", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "4", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "6", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "9", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Onryo",
+        "id": "4f9d-75ed-b7a7-fdbc",
+        "collective": false,
+        "hidden": false,
+        "page": 66,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "4f9d-75ed-b7a7-fdbc-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "entryLinks": [{"id": "2d51-6cb4-df5a-02d0", "targetId": "f71c-de90-d6fc-dfc7", "type": "selectionEntry"}]
+      },
+      {
+        "name": "Punk Zombie",
+        "id": "7105-150b-8781-4cbf",
+        "collective": false,
+        "hidden": false,
+        "page": 134,
+        "publicationId": "b63a-0141-pub2",
+        "type": "model",
+        "categoryLinks": [{"id": "7105-150b-8781-4cbf-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 7}],
+        "infoLinks": [
+          {"id": "e1a6-018d-8314-a776", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"},
+          {"id": "a1b4-5e6d-de2f-ff0e", "targetId": "cb3c-463b-1ddc-2717", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Punk Zombie",
+            "id": "6160-806f-390d-7cec",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "5", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rafkin",
+        "id": "0910-acb5-2a30-b7cb",
+        "collective": false,
+        "hidden": false,
+        "page": 69,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "0910-acb5-2a30-b7cb-afff2517-9118-65d0-6a05-69270c89c446", "primary": true, "targetId": "afff2517-9118-65d0-6a05-69270c89c446"}],
+        "constraints": [
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "type": "max", "value": 1},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 7}],
+        "infoLinks": [{"id": "9a88-d66d-4115-60ae", "targetId": "da08-3a51-d6ef-143f", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Rafkin",
+            "id": "23cc-e53f-3c8a-d1f0",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "10", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "5", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "6", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rogue Necromancy",
+        "id": "6f3e-3687-30dc-2029",
+        "collective": false,
+        "hidden": false,
+        "page": 63,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "6f3e-3687-30dc-2029-afff2517-9118-65d0-6a05-69270c89c446", "primary": true, "targetId": "afff2517-9118-65d0-6a05-69270c89c446"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 10}],
+        "infoLinks": [
+          {"id": "7407-06ba-4a91-d000", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"},
+          {"id": "ca29-63d7-719d-12a2", "targetId": "2e63-e102-b988-4314", "type": "rule"},
+          {"id": "0014-f1b1-4124-3ca7", "targetId": "68c0-9c9e-22d7-20a4", "type": "rule"},
+          {"id": "8d1d-b290-a950-a48f", "targetId": "cb3c-463b-1ddc-2717", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Rogue Necromancy",
+            "id": "bf42-8813-0df3-31bd",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "4", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "5", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "10", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "5", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "3", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rotten Belle",
+        "id": "4dc1-bc75-58de-f5d7",
+        "collective": false,
+        "hidden": false,
+        "page": 134,
+        "publicationId": "b63a-0141-pub2",
+        "type": "model",
+        "categoryLinks": [{"id": "4dc1-bc75-58de-f5d7-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 5}],
+        "infoLinks": [
+          {"id": "60e4-da21-871d-e1da", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"},
+          {"id": "976a-e770-0799-0843", "targetId": "4810-b041-1f07-b76b", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Rotten Belle",
+            "id": "bb85-3831-4bc6-47a9",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "4", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "4", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "8", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "5", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "6", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Shikome",
+        "id": "05f7-f53d-2b21-6314",
+        "collective": false,
+        "hidden": false,
+        "page": 66,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "05f7-f53d-2b21-6314-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "constraints": [
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "type": "max", "value": 2},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 2}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "entryLinks": [{"id": "a812-458d-f81c-2a04", "targetId": "d1e5-c804-0b86-3251", "type": "selectionEntry"}]
+      },
+      {
+        "name": "Student of Sinew",
+        "id": "8786-73c6-e799-bda6",
+        "collective": false,
+        "hidden": false,
+        "page": 70,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "8786-73c6-e799-bda6-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 7}],
+        "infoLinks": [
+          {"id": "f8e1-3cb5-31ab-5093", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"},
+          {"id": "4fac-d36d-0e4f-b849", "targetId": "cb3c-463b-1ddc-2717", "type": "rule"},
+          {"id": "9c7d-b69f-45d0-f673", "targetId": "2e63-e102-b988-4314", "type": "rule"},
+          {"id": "96dc-5ec1-11a6-8be9", "targetId": "e503-3296-4681-ac23", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Student of Sinew",
+            "id": "5e40-0918-0cc0-f705",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "4", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Student of Steel",
+        "id": "ac80-51e1-8d5f-7929",
+        "collective": false,
+        "hidden": false,
+        "page": 71,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "ac80-51e1-8d5f-7929-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 7}],
+        "infoLinks": [
+          {"id": "f86a-57aa-552d-fdb2", "targetId": "2e63-e102-b988-4314", "type": "rule"},
+          {"id": "0be1-270d-31ae-4cea", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"},
+          {"id": "163c-b277-1972-ff53", "targetId": "cb3c-463b-1ddc-2717", "type": "rule"},
+          {"id": "94cd-938b-a862-6f31", "targetId": "e503-3296-4681-ac23", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Student of Steel",
+            "id": "bf1a-ce4b-a6a2-c95e",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "4", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "4", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "8", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "4", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "6", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Student of Viscera",
+        "id": "b983-c37a-7972-abb2",
+        "collective": false,
+        "hidden": false,
+        "page": 71,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "b983-c37a-7972-abb2-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "infoLinks": [
+          {"id": "1027-d9fa-b84c-69a5", "targetId": "2e63-e102-b988-4314", "type": "rule"},
+          {"id": "0019-a2db-186a-6130", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"},
+          {"id": "9b8b-6d5b-9558-90f6", "targetId": "e503-3296-4681-ac23", "type": "rule"},
+          {"id": "2fac-7fdb-015d-4f28", "targetId": "cb3c-463b-1ddc-2717", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Student of Viscera",
+            "id": "a5ef-d4a8-c38a-ecfc",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "4", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "5", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The Drowned",
+        "id": "1d69-3216-6079-0aef",
+        "collective": false,
+        "hidden": false,
+        "page": 68,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "1d69-3216-6079-0aef-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 6}],
+        "entryLinks": [{"id": "87f3-ff9c-cc88-9643", "targetId": "0123-8f94-c64f-08f7", "type": "selectionEntry"}]
+      },
+      {
+        "name": "The Hanged",
+        "id": "a931-3a68-e73b-46e5",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [{"id": "a931-3a68-e73b-46e5-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "entryLinks": [{"id": "84b7-d846-5e10-95db", "targetId": "90e7-47c0-5b4a-72c7", "type": "selectionEntry"}]
+      }
+    ],
+    "sharedRules": [
+      {"name": "Academic", "id": "e503-3296-4681-ac23", "hidden": false},
+      {"name": "Beast", "id": "68c0-9c9e-22d7-20a4", "hidden": false},
+      {"name": "Belle", "id": "4810-b041-1f07-b76b", "hidden": false},
+      {
+        "name": "Construct",
+        "id": "2e63-e102-b988-4314",
+        "description": "models drop Scrap Markers when they are killed",
+        "hidden": false,
+        "page": 49,
+        "publicationId": "b63a-0141-pub2"
+      },
+      {"name": "Effigy", "id": "d71f-e859-f0f2-5a12", "hidden": false},
+      {"name": "Horror", "id": "cb3c-463b-1ddc-2717", "hidden": false},
+      {"name": "Horseman", "id": "70d2-b452-99e3-eb7a", "hidden": false},
+      {"name": "Hound", "id": "8ad2-43de-d80b-4c5e", "hidden": false},
+      {
+        "name": "Living",
+        "id": "da08-3a51-d6ef-143f",
+        "description": "The model's controller places a Corpse Marker in base contact with the model before it is removed.",
+        "hidden": false,
+        "page": 49,
+        "publicationId": "b63a-0141-pub2"
+      },
+      {"name": "Lost", "id": "ac32-7975-acda-8a20", "hidden": false},
+      {"name": "Puppet", "id": "59ce-e6d0-8931-2c4d", "hidden": false},
+      {"name": "Retainer", "id": "5357-a9a1-b387-6b96", "hidden": false},
+      {
+        "name": "Slow",
+        "id": "41a7-0137-8635-e0ee",
+        "description": "A model with the Slow Condition generates 1 less general AP when it Activates.",
+        "hidden": false,
+        "page": 53,
+        "publicationId": "b63a-0141-pub2"
+      },
+      {"name": "Spirit", "id": "b183-4bc0-9bb7-4aaf", "hidden": false},
+      {"name": "Tormented", "id": "686a-27f7-c895-2305", "hidden": false},
+      {
+        "name": "Undead",
+        "id": "d412-e0a9-73b0-5cf4",
+        "description": "The model's controller places a Corpse Marker in base contact with the model before it is removed.",
+        "hidden": false,
+        "page": 49,
+        "publicationId": "b63a-0141-pub2"
+      },
+      {"name": "Unhirable", "id": "3b29-1113-238f-16b7", "description": "This model may not be hired, it may only be summoned.", "hidden": false}
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Gaki",
+        "id": "192a-4c3c-7d35-3d22",
+        "collective": false,
+        "hidden": false,
+        "page": 65,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 4}],
+        "infoLinks": [{"id": "531e-bb77-4396-d731", "targetId": "b183-4bc0-9bb7-4aaf", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Gaki",
+            "id": "a52e-aac8-eba1-4aec",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "6", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "4", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "5", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "5", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "7", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Graveyard spirit",
+        "id": "b068-dec4-664f-3e06",
+        "collective": false,
+        "hidden": false,
+        "page": 129,
+        "publicationId": "b63a-0141-pub2",
+        "type": "model",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 3}],
+        "infoLinks": [{"id": "3f9a-6df3-3642-80d8", "targetId": "b183-4bc0-9bb7-4aaf", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Graveyard spirit",
+            "id": "98f5-314e-0909-aa8e",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "3", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "5", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "4", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "4", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "6", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "1", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ikiryo",
+        "id": "9711-c47e-5101-6f19",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"id": "9711-c47e-5101-6f19-afff2517-9118-65d0-6a05-69270c89c446", "primary": true, "targetId": "afff2517-9118-65d0-6a05-69270c89c446"}],
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "entryLinks": [{"id": "6ae7-ace4-26f5-bc8e", "targetId": "ef19-a0ec-0306-9dc6", "type": "selectionEntryGroup"}],
+        "infoLinks": [{"id": "345e-03f6-f993-78e4", "targetId": "b183-4bc0-9bb7-4aaf", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Ikiryo",
+            "id": "15fd-21e6-80bc-2bf2",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "3", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "5", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "5", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "2", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "9", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "3", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Leader",
+        "id": "3f2c-5da1-b053-0618",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 1},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "entryLinks": [{"id": "0a50-5996-b687-3303", "targetId": "1aee-5e53-9343-fae6", "type": "selectionEntry"}]
+      },
+      {
+        "name": "Night Terror",
+        "id": "c791-d620-f344-6e1d",
+        "collective": false,
+        "hidden": false,
+        "page": 65,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "c791-d620-f344-6e1d-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 4},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 4},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 3}],
+        "infoLinks": [
+          {"id": "2f34-ec4d-b017-52a3", "targetId": "68c0-9c9e-22d7-20a4", "type": "rule"},
+          {"id": "dd75-27b5-13d6-1504", "targetId": "b183-4bc0-9bb7-4aaf", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Night Terror",
+            "id": "0ecd-944a-a9a1-fdce",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "3", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "5", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "4", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "6", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "6", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "1", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Onryo",
+        "id": "f71c-de90-d6fc-dfc7",
+        "collective": false,
+        "hidden": false,
+        "page": 66,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "f71c-de90-d6fc-dfc7-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 5}],
+        "infoLinks": [
+          {"id": "b8e6-2df3-ef35-b614", "targetId": "b183-4bc0-9bb7-4aaf", "type": "rule"},
+          {"id": "2fa4-4fc4-85e3-a4dd", "targetId": "5357-a9a1-b387-6b96", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Onryo",
+            "id": "593b-7c6c-d388-4d7f",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "4", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "5", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "5", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "4", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "6", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Seishin",
+        "id": "614f-1212-965b-ce53",
+        "collective": false,
+        "hidden": false,
+        "page": 64,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "614f-1212-965b-ce53-c2b663a3-58c9-d0dd-29d8-9d38d7e0416f", "primary": true, "targetId": "c2b663a3-58c9-d0dd-29d8-9d38d7e0416f"}],
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 5},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 5},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "infoLinks": [
+          {"id": "04fe-0ff8-f8ee-d6c1", "targetId": "b183-4bc0-9bb7-4aaf", "type": "rule"},
+          {"id": "8cb3-a3c7-0f2d-b638", "targetId": "3b29-1113-238f-16b7", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Seishin",
+            "id": "34c1-80ed-281e-d379",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "4", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "4", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "2", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "4", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "-", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Shikome",
+        "id": "d1e5-c804-0b86-3251",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 2},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 2},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 8}],
+        "infoLinks": [
+          {"id": "6a48-79e9-625f-e93a", "targetId": "68c0-9c9e-22d7-20a4", "type": "rule"},
+          {"id": "b37c-5887-5dd1-4717", "targetId": "b183-4bc0-9bb7-4aaf", "type": "rule"},
+          {"id": "2ec1-1f09-44c8-dace", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Shikome",
+            "id": "fdfe-48f3-7f1d-34f8",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "5", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "5", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "8", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "6", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "6", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Soulstone Cache",
+        "id": "1aee-5e53-9343-fae6",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 7},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 7},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}]
+      },
+      {
+        "name": "The Drowned",
+        "id": "0123-8f94-c64f-08f7",
+        "collective": false,
+        "hidden": false,
+        "page": 68,
+        "publicationId": "b63a-0141-pub1",
+        "type": "model",
+        "categoryLinks": [{"id": "0123-8f94-c64f-08f7-f8d4707d-7814-cd0a-e388-72519a4e206f", "primary": true, "targetId": "f8d4707d-7814-cd0a-e388-72519a4e206f"}],
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 6}],
+        "infoLinks": [
+          {"id": "e824-5bed-3203-d3e9", "targetId": "b183-4bc0-9bb7-4aaf", "type": "rule"},
+          {"id": "03ea-26c2-40fc-007c", "targetId": "686a-27f7-c895-2305", "type": "rule"},
+          {"id": "7720-1cb5-d4d6-ed36", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"},
+          {"id": "ec7d-4dc6-1373-2b25", "targetId": "cb3c-463b-1ddc-2717", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "The Drowned",
+            "id": "aef5-686e-b32b-9691",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "6", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "6", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "$text": "6", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "4", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "$text": "6", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The Hanged",
+        "id": "90e7-47c0-5b4a-72c7",
+        "collective": false,
+        "hidden": false,
+        "page": 135,
+        "publicationId": "b63a-0141-pub2",
+        "type": "model",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 2},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 2},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 9}],
+        "infoLinks": [
+          {"id": "ba87-7f0a-ed17-915c", "targetId": "d412-e0a9-73b0-5cf4", "type": "rule"},
+          {"id": "203c-33de-83a8-8db7", "targetId": "b183-4bc0-9bb7-4aaf", "type": "rule"},
+          {"id": "3def-c841-80fb-f0ce", "targetId": "686a-27f7-c895-2305", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "The Hanged",
+            "id": "13dd-372e-6459-8187",
+            "hidden": false,
+            "typeId": "f2c3cb08-04f9-637e-eddd-587ba69ec5a9",
+            "characteristics": [
+              {"name": "Defence(Df)", "$text": "4", "typeId": "abc11e6e-747a-678b-2df3-4c12ba913ba1"},
+              {"name": "Willpower(Wp)", "$text": "7", "typeId": "1921db93-99dc-9bdb-d6ba-141f24afa2f2"},
+              {"name": "Wounds(Wd)", "typeId": "fbb469e5-aea5-49d9-3a0f-a5aa244af286"},
+              {"name": "Walk(Wk)", "$text": "5", "typeId": "89e316bf-d9ed-3689-45f8-538a0439652d"},
+              {"name": "Charge(Cg)", "typeId": "4921463b-2034-7920-04f2-f90c6cb5d982"},
+              {"name": "Height(Ht)", "$text": "2", "typeId": "8c419f50-f496-763f-8d50-6dbc17819715"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Upgrade\\Assorb Spirit",
+        "id": "f939-f1e9-4f80-6241",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "37b6-0996-ab17-1510", "field": "selections", "scope": "parent", "shared": true, "type": "notEqualTo", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "Upgrade\\Asylium Stone",
+        "id": "c914-509a-dcfb-cd16",
+        "collective": false,
+        "hidden": false,
+        "page": 136,
+        "publicationId": "b63a-0141-pub2",
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}]
+      },
+      {
+        "name": "Upgrade\\Bloody Shears",
+        "id": "e0d8-2b16-e777-0d86",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "37b6-0996-ab17-1510", "field": "selections", "scope": "parent", "shared": true, "type": "notEqualTo", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "Upgrade\\Corpse Bloat",
+        "id": "f1f9-0318-4d98-948e",
+        "collective": false,
+        "hidden": false,
+        "page": 136,
+        "publicationId": "b63a-0141-pub2",
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 2}]
+      },
+      {
+        "name": "Upgrade\\Decaying Aura",
+        "id": "674c-ea4f-10e1-825d",
+        "collective": false,
+        "hidden": false,
+        "publicationId": "b63a-0141-pub3",
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 2}],
+        "rules": [
+          {
+            "name": "Decaying Aura",
+            "id": "630f-d351-d7c9-3eaf",
+            "description": "Enemy models within (pulse)4 may not\nbe healed.",
+            "hidden": false,
+            "publicationId": "b63a-0141-pub3"
+          },
+          {
+            "name": "Bane",
+            "id": "4d8a-2f63-2a9e-a409",
+            "description": "Enemy models may not use Soulstones to\nprevent damage caused by this model's Attack\nActions or Abilities.",
+            "hidden": false,
+            "publicationId": "b63a-0141-pub3"
+          }
+        ]
+      },
+      {
+        "name": "Upgrade\\Maniacal Laugh",
+        "id": "a4e4-6e9a-e286-95ec",
+        "collective": false,
+        "hidden": false,
+        "page": 137,
+        "publicationId": "b63a-0141-pub2",
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}]
+      },
+      {
+        "name": "Upgrade\\Necrotic Preparation",
+        "id": "0ed2-86e6-308a-65e2",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 3},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}]
+      },
+      {
+        "name": "Upgrade\\Spare Parts",
+        "id": "e1fd-7cec-d16e-4864",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 2}]
+      },
+      {
+        "name": "Upgrade\\Spirit Beacon",
+        "id": "27c3-4a7a-d582-b1f8",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "37b6-0996-ab17-1510", "field": "selections", "scope": "parent", "shared": true, "type": "notEqualTo", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "Upgrade\\Spirit Whisper",
+        "id": "1b34-21ee-7789-e251",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "27b7-bab0-af29-eeb5", "field": "selections", "scope": "parent", "shared": true, "type": "notEqualTo", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "Upgrade\\Swirling Aether",
+        "id": "2c20-28ae-a7a6-8252",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 2}]
+      },
+      {
+        "name": "Upgrade\\Transfusion",
+        "id": "e68d-3b70-821b-daba",
+        "collective": false,
+        "hidden": false,
+        "page": 137,
+        "publicationId": "b63a-0141-pub2",
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 2},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 2},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}]
+      },
+      {
+        "name": "Upgrade\\Unforgiven",
+        "id": "956b-c033-5ea1-352d",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 2}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "37b6-0996-ab17-1510", "field": "selections", "scope": "parent", "shared": true, "type": "notEqualTo", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "Upgrade\\Unnerving Aura",
+        "id": "b46c-a2ae-538c-8f7a",
+        "collective": false,
+        "hidden": false,
+        "page": 136,
+        "publicationId": "b63a-0141-pub2",
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 3},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Upgrades",
+        "id": "24fe-4add-82ca-37a8",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [
+          {"id": "eef1-95c2-7f4d-dc2e", "targetId": "956b-c033-5ea1-352d", "type": "selectionEntry"},
+          {"id": "44fb-484e-929b-a538", "targetId": "2c20-28ae-a7a6-8252", "type": "selectionEntry"},
+          {"id": "a89e-8c06-d48a-6fee", "targetId": "e0d8-2b16-e777-0d86", "type": "selectionEntry"},
+          {"id": "fd9b-ea81-e9cc-eae6", "targetId": "f939-f1e9-4f80-6241", "type": "selectionEntry"},
+          {"id": "b775-fc9e-6c62-2881", "targetId": "27c3-4a7a-d582-b1f8", "type": "selectionEntry"},
+          {"id": "74df-2731-e836-1998", "targetId": "0ed2-86e6-308a-65e2", "type": "selectionEntry"},
+          {"id": "5ccd-835f-4860-1291", "targetId": "e1fd-7cec-d16e-4864", "type": "selectionEntry"},
+          {"id": "244e-4078-92a3-a1c2", "targetId": "674c-ea4f-10e1-825d", "type": "selectionEntry"},
+          {"id": "f0cf-95ee-06e3-f50a", "targetId": "b46c-a2ae-538c-8f7a", "type": "selectionEntry"},
+          {"id": "95a8-7dfc-5666-63e8", "targetId": "e68d-3b70-821b-daba", "type": "selectionEntry"},
+          {"id": "59ec-c66b-3995-f77d", "targetId": "1b34-21ee-7789-e251", "type": "selectionEntry"}
+        ]
+      },
+      {
+        "name": "Upgrades (Enforcer)",
+        "id": "ef19-a0ec-0306-9dc6",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [
+          {"id": "aba6-6e5d-43f3-1d4e", "targetId": "24fe-4add-82ca-37a8", "type": "selectionEntryGroup"},
+          {"id": "68c6-5594-78a7-7b1d", "targetId": "f1f9-0318-4d98-948e", "type": "selectionEntry"}
+        ]
+      },
+      {
+        "name": "Upgrades (Henchman)",
+        "id": "269e-d99d-9c71-0506",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 2},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [
+          {"id": "3493-c75c-2a2d-b01c", "targetId": "24fe-4add-82ca-37a8", "type": "selectionEntryGroup"},
+          {"id": "9420-3de1-faf1-a6a3", "targetId": "f1f9-0318-4d98-948e", "type": "selectionEntry"}
+        ]
+      },
+      {
+        "name": "Upgrades (Leader)",
+        "id": "5a5a-58dc-7a89-a8de",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": -1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [
+          {"id": "d72c-f5e0-c7c3-1538", "targetId": "c914-509a-dcfb-cd16", "type": "selectionEntry"},
+          {"id": "430b-1dbb-85d6-e58f", "targetId": "a4e4-6e9a-e286-95ec", "type": "selectionEntry"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "3f2c-5da1-b053-0618", "field": "selections", "scope": "parent", "shared": true, "type": "equalTo", "value": 0}]
+          }
+        ]
+      },
+      {
+        "name": "Upgrades (Master)",
+        "id": "f17d-ebcf-1b44-d537",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 3},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [{"id": "fce3-5149-b664-de0e", "targetId": "24fe-4add-82ca-37a8", "type": "selectionEntryGroup"}]
+      }
+    ]
+  }
+}
