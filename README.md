@@ -1,46 +1,27 @@
-Archived by @Mad-Spy on 2020-05-21 due to lack of release
+# Malifaux data
 
-Malifaux 2e
-========
+Army list data files for Malifaux.
 
-####Contents####
+> **Community rehost.** These files were written by the community contributors listed below and were previously published at `github.com/BSData/malifaux`, which is no longer online. This copy keeps them available and open to updates.
+>
+> They are not made, maintained or endorsed by NewRecruit. Nobody here is affiliated with or endorsed by the publisher of Malifaux. All game names and trademarks belong to their respective owners. You still need the official rules to play.
 
-* [Overview][]
-* [Links][]
+## Is this maintained?
 
+It is open for updates, not archived. It is kept up by whoever contributes to it, so check the commit history to see how current it is. Last data change before the rehost: 2016-09-22.
 
-[Overview]: #overview
-[Links]: #links
+## How to update it
 
+- **Pull request:** fork this repository, make your changes and open a pull request.
+- **Write access:** if you want to maintain this game, ask on the NewRecruit Discord: https://discord.gg/cCtqGbugwb
 
-##Overview##
+## File format
 
-__What's this?__
+The files are JSON, converted on 2026-11-16 from the original BattleScribe XML (`.cat`/`.gst`). The XML versions are in the git history before that commit.
 
-BSData organisation created this project. It's GitHub repository of datafiles. Maintained by community, in no way endorsed by BattleScribe. If you want to develop - cool! We need you! Take a look at [Getting Started wiki][]
+## Authors
 
-__Okay, nice project. Is it actually working?__ _I just want those files..._
+From the git history of the data files:
 
-Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
-
-
-##Links##
-
-* [BattleScribe homepage][]
-* [BattleScribe Data on Appspot][]
-* [Getting Started wiki][]
-* [Wyrd Games Home page][]
-* [Malifaux 2e Rules (free download)][]
-
-
-[BattleScribe homepage]: http://www.battlescribe.net/
-[BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
-[Getting Started wiki]: https://github.com/BSData/bsdata/wiki/Home#getting-started
-[Wyrd Games Home page]: http://www.wyrd-games.net/
-[Malifaux 2e Rules (free download)]: http://www.drivethrurpg.com/product/133323/Malifaux--RULES-ONLY-Handbook--2E?cPath=23027_23028
-
-##Disclaimer##
-Portions of the materials used are copyrighted works of Wyrd Miniatures, LLC, in the United States of
-America and elsewhere. All rights reserved, Wyrd Miniatures, LLC. This material is not official and is not
-endorsed by Wyrd Miniatures, LLC.
-
+- reyzambo
+- PanzerHarris
